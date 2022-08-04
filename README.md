@@ -41,4 +41,4 @@ options:
 `python3 ldap_dump.py -u test -p 'Testing123!' 127.0.0.1 389`
 
 ## NTLM Pass the Hash Authentication
-`python3 ldap_dump.py -u test -H 12345:54321 127.0.0.1 389`
+`python3 ldap_dump.py -u domain.local\\test -H 12345:54321 127.0.0.1 389`
